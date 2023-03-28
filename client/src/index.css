@@ -1,0 +1,9 @@
+body {
+    font-family: Raleway !important;
+    min-height: 100vh !important;
+  }
+
+#root {
+    min-height: 100vh !important;
+}
+  

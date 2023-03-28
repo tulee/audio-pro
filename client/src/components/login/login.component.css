@@ -1,0 +1,51 @@
+.login-component{
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-form{
+    font-family: Raleway !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    border: 1px solid #d3ced2;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 15px !important;
+}
+
+.page-name{
+    font-family: Oswald;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.form-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.login-form > form > button {
+    background-color: #ebe9eb !important;
+    color: #515151 !important;
+    border: none !important;
+}
+
+.login-form > form > button:hover {
+    background-color: rgb(209, 208, 208) !important;
+}
+
+.alert-login{
+    font-family: Raleway !important;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #ebe9eb;
+    width: 100%;
+    border-top: 3px solid #b81c23;
+}

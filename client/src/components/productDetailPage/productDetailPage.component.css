@@ -1,0 +1,138 @@
+.product_page_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.product_page_heading{
+  font-family: Oswald !important;
+  font-size: 50px !important;
+  line-height: 1.2 !important;
+  text-transform: uppercase !important;
+  font-weight: 650 !important;
+  margin-bottom: 25px;
+}
+
+.price_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.last_price{
+  font-family: Oswald !important;
+  font-size: 40px !important;
+  line-height: 1 !important;
+  font-weight: 650 !important;
+  color: #dd3333;
+  margin-left: 10px;
+}
+
+.old_price{
+  text-decoration: line-through;
+  font-family: Oswald !important;
+  font-size: 25px !important;
+  font-weight: 300 !important;
+  color: #9d9d9d;
+  line-height: 1 !important;
+}
+
+.product_image{
+  display: block;
+  width: 50%;
+  /* aspect-ratio: 1/1;  */
+  margin-right: 50px;
+}
+
+.product_quick_view{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 150px;
+}
+
+.product_atc_amount{
+    width: 150px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    font-family: Raleway !important;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 100% !important;
+    margin-right: 10px;
+    text-align: center;
+}
+
+input[type=number]:focus{
+    outline: none;
+}
+
+.product_action{
+  height: 50px;
+}
+
+.product_btn_atc{
+  font-family: Raleway !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  height: 100%;
+  background-color: #dd3333;
+  color: white;
+  width: 200px;
+  border: none;
+  border-radius: 2px;
+}
+
+.product_detail_info {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0px 450px; */
+  width: 50%;
+}
+
+.product_detail_info h3{
+  background: #f8f8f8 !important;
+  font-size: 15px;
+  font-family: 'Oswald';
+  padding: 10px 15px;
+  font-weight: 650;
+}
+
+.product_detail_info p{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.review_form{
+  font-family: Raleway !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  font-size: 13px !important;
+  padding: 0px 10px 50px 10px;
+  
+}
+
+.review_form form button, .review_form form div input, .review_form form div textarea {
+  font-family: Raleway !important;
+  font-size: 13px !important;
+} 
+
+.review_form form button{
+  background: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+.review_form form button:hover{
+  background: #dd3333;
+}

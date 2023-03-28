@@ -1,0 +1,22 @@
+.myorder-container{
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.myorder-container .row{
+    /* padding: 3px 0px; */
+    height: 40px;
+    border: 1px solid #d3ced2;
+    /* margin-top: -1px; */
+}
+
+.myorder-container .row div {
+    align-self: center !important;
+}
+
+.myorder-container .row button{
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-weight: bold;
+}

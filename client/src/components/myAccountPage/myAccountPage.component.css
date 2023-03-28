@@ -1,0 +1,30 @@
+.my-account-container{
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 75vh;
+}
+
+.my-account-body{
+    width: 100%;
+}
+
+.my-account-left{
+    color: black !important;
+}
+
+.left-nav-bar{
+    background: #fbfbfb;
+}
+
+.my-account-left > div > a {
+    color: inherit;
+    font-family: Raleway !important;
+    font-size: 15px;
+}
+
+.my-account-body  .row  .col-sm-9 {
+    padding: 0px 20px !important;
+}
+

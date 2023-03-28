@@ -1,0 +1,78 @@
+.page-container{
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category-name{
+    font-family: Oswald;
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-weight: 650 !important;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.left-side-content{
+    width: 25%;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.right-side-content{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.clear-filter-btn{
+    font-family: Raleway !important;
+    font-size: 15px !important;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.left-side-content h3{
+    font-family: Oswald;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 650 !important;
+}
+
+.left-side-content div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-side-content div button, .choosed-filter button{
+    font-family: Raleway !important;
+    font-size: 15px !important;
+    background: white;
+    border: #e8e8e8 solid 1px;
+    margin-right: 3px;
+}
+
+.filter-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.power-active{
+    border: black solid 1.5px !important;
+}
+
+.power-disable {
+    pointer-events:none;
+}

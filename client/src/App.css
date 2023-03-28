@@ -1,0 +1,9 @@
+.App{
+    min-height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body{
+    min-height: 80vh;
+}

@@ -1,0 +1,117 @@
+.checkout_page_container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px 30px;
+    width: 100%;
+    font-size: 15px !important;
+}
+
+.checkout_page_container h1 {
+    font-family: Oswald;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 36px !important;
+}
+
+.checkout-detail .row, .checkout-total .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.checkout-total .row {
+    padding: 10px;
+    border-bottom: #edebed 1px solid;
+}
+
+.checkout_page_content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-checkout-detail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-checkout-detail h3 {
+    font-size: 1.1rem !important;
+    font-weight: 1000;
+}
+
+.header-checkout-detail button {
+    background: #ebe9eb;
+    font-weight: 600;
+    border: none;
+    height: 40px;
+    padding: 0px 20px;
+    color: black;
+}
+
+.checkout-detail{
+    width: 55%;
+    background: #fbfbfb;
+    padding: 30px;
+    height: fit-content;
+}
+
+.checkout-total{
+    width: 45%;
+    padding: 30px 0px 30px 50px;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+.checkout-total > h3{
+    font-size: 1.1rem !important;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+.cf_billing_address{
+    margin-top: 30px;
+}
+
+.cf_billing_address > h3{
+    font-size: 1rem !important;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+.cf_billing_address > div {
+    padding: 20px 30px;
+    background: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.order-btn{
+    background: #17c57a;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-weight: 600 !important;
+    margin: 10px 0px;
+}
+
+.alert-checkout{
+    font-family: Raleway !important;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #ebe9eb;
+    width: 100%;
+    border-top: 3px solid #b81c23;
+    margin-bottom: 30px;
+}
+
+.checkout-detail .col{
+    padding: 0px;
+}

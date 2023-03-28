@@ -1,0 +1,21 @@
+.header{
+    font-family: Raleway !important;
+}
+
+.logo{
+    font-size: 15px;
+}
+
+.header-menu-main{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header-menu-right{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header-menu-right > a{
+    margin-right: 20px;
+}
